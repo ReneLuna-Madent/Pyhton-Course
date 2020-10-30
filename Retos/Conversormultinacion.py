@@ -1,3 +1,11 @@
+def conversor(tipo_pesos, valor_madentcoins):
+    pesos = float(input("¿Cuantos Pesos" + tipo_pesos + "Tienes?: "))
+    madentcoins = pesos / valor_madentcoins
+    madentcoins = round(madentcoins, 2)
+    madentcoins = str(madentcoins)
+    print("Tienes $" + madentcoins + "Madentcoins ")
+
+
 menu = """
     Bienvenido a Madent Coins
 
@@ -12,36 +20,13 @@ menu = """
 opcion =int(input(menu))
 
 if opcion == 1:
-    pesos = float(input("¿Cuantos Pesos Mexicanos Tienes?: "))
-    valor_madentcoins = 21.04
-    madentcoins = pesos / valor_madentcoins
-    madentcoins = round(madentcoins, 2)
-    madentcoins = str(madentcoins)
-    print("Tienes $" + madentcoins + "Madentcoins ")
-
+   conversor("Mexicanos", 21.04)
 elif opcion ==2:
-    pesos = float(input("¿Cuantos Pesos Argentinos Tienes?: "))
-    valor_madentcoins = 65
-    madentcoins = pesos / valor_madentcoins
-    madentcoins = round(madentcoins, 2)
-    madentcoins = str(madentcoins)
-    print("Tienes $" + madentcoins + "Madentcoins ")
-
+    conversor("Argentinos", 4200)
 elif opcion ==3:
-    pesos = float(input("¿Cuantos Pesos Brasileños Tienes?: "))
-    valor_madentcoins = 35
-    madentcoins = pesos / valor_madentcoins
-    madentcoins = round(madentcoins, 2)
-    madentcoins = str(madentcoins)
-    print("Tienes $" + madentcoins + "Madentcoins ")
-
+    conversor("Brasileños", 65)
 elif opcion ==4:
-    pesos = float(input("¿Cuantos Pesos Colombianos Tienes?: "))
-    valor_madentcoins = 4200
-    madentcoins = pesos / valor_madentcoins
-    madentcoins = round(madentcoins, 2)
-    madentcoins = str(madentcoins)
-    print("Tienes $" + madentcoins + "Madentcoins ")
+    conversor("Colombianos", 3875)
 
 else:
     print("ingresa una opcion correcta please :)")
