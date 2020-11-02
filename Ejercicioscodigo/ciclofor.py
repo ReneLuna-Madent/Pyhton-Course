@@ -10,3 +10,8 @@
 
 for contador in range(1, 1001): #al usar dos variables se indica el valor inicial y el final -1
     print(contador)
+
+for i in range(10):
+    print(11 * 1)
+
+
