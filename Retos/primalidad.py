@@ -19,5 +19,4 @@ def run():
     if es_primo(numero) == True:
         print('Es primo')
     else:
-        print('No es Primo'
-        )
+        print('No es Primo')
