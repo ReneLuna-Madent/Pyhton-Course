@@ -1,5 +1,5 @@
 def es_primo(numero):
-    contado = 0
+    contador = 0
 
     for i in range(1, numero + 1):
         if i == 1 or i == numero:
@@ -12,11 +12,15 @@ def es_primo(numero):
         return False
 
 
-
-
 def run():
-    numero = int(input('Escribe un numero: '))
-    if es_primo(numero) == True:
+    numero = int(input('Escribe un número: '))
+    if es_primo(numero):
         print('Es primo')
     else:
-        print('No es Primo')
+        print('No es primo')
+
+
+if __name__ == '__main__':
+    run()
+
+    
