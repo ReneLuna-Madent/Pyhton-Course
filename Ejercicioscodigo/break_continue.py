@@ -14,7 +14,7 @@ def run():
     for letra in texto:
          if letra == 'o':
             break
-    print(letra)    
+         print(letra)    
 
 
 
