@@ -17,10 +17,10 @@ def run():
 
     # print(poblacion_paises['Bolivia'])
 
-    # for pais in poblacion_paises.keys():
+    # for pais in poblacion_paises.keys():  // imprime el valor de las llaves
     #     print(pais)
 
-    # for pais in poblacion_paises.values():
+    # for pais in poblacion_paises.values(): // imprime el valor de los valores de las llaves
     #     print(pais)
 
     for pais, poblacion in poblacion_paises.items():
